@@ -17,3 +17,7 @@ Reflash the image again and skip the booting with monitor and directly using USB
 Program used to flash image: Etcher-Portable-1.4.6-x64.exe
 
 I have boot it with monitor and USB and mouse, it can successfully boot up.
+
++++
+
+Received Jetson Nano
