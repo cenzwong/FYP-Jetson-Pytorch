@@ -5,8 +5,8 @@
 +++
 ## 10312019 Configurating in headless mode
 > Account
-cenzth@gmail.com
-This is my Nvidia ac.
+> cenzth@gmail.com
+> This is my Nvidia ac.
 
-Jetsonnano
-61585094
+> Jetsonnano
+> 61585094
