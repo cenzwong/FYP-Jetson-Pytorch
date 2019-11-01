@@ -12,6 +12,11 @@ The Key board shortcut is
 + Ctrl + S:  save and checkpoint
 
 I am using the CSI camera, when I run the ipython notebook, the python will return busy. I suspend that the power problem, since I am using 5V/2A power source and the recommand power source is 5V/4A. Will go and buy a better source and USB camera for backup.
+
+i use my USB camera and fail also
+
+TODO buy official Power source and Logitech C270 Webcam
+
 ## 31102019 Configurating in headless mode
 > Account:
 > cenzth@gmail.com;
