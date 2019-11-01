@@ -1,5 +1,17 @@
 # Jetson-Nano-Log
+## 01112019 Connecting with the Camera
+Navigate to the path
+> nvdli-nano/hello_camera/csi_camera.ipynb
+The Notebooks consist of
++ Markdown
++ Code
+The Key board shortcut is 
++ Shift + Enter:  run the current cell, select below
++ Ctrl + Enter:  run selected cells
++ Alt + Enter:  run the current cell, insert below
++ Ctrl + S:  save and checkpoint
 
+I am using the CSI camera, when I run the ipython notebook, the python will return busy. I suspend that the power problem, since I am using 5V/2A power source and the recommand power source is 5V/4A. Will go and buy a better source and USB camera for backup.
 ## 31102019 Configurating in headless mode
 > Account:
 > cenzth@gmail.com;
