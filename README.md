@@ -1,4 +1,6 @@
 # Jetson-Nano-Log
+## 08112019 Connecting with Camera again
+With 5V/4A power source.
 ## 01112019 Connecting with the Camera
 Navigate to the path
 > nvdli-nano/hello_camera/csi_camera.ipynb
