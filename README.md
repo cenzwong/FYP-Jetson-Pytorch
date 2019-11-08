@@ -1,9 +1,55 @@
 # Jetson-Nano-Log
 ## 08112019 Connecting with Camera again
-With 5V/4A power source.
+With 5V/4A power source. And 
 
+<table><tr>
+<td><img src=".\img\IPCam_Front.jpg" alt="drawing" width="400"/></td>
+<td><img src=".\img\IPCam_Back.jpg" alt="drawing" width="400"/></td>
+<tr></table>
+
+Run the script of "nvdli-nano/hello_camera/usb_camera.ipynb" and it can show the camera image
+
+```console
+!ls -ltrh /dev/video*
+
+-l long
+-t time sorting
+-r reverse
+-h better format
+```
+
+```python
+from jetcam.usb_camera import USBCamera
+
+camera = USBCamera(width=224, height=224, capture_width=640, capture_height=480, capture_device=0)
+image = camera.read()
+print(image.shape)
+print(camera.value.shape)
+
+# Create a widget to view the image stream
+import ipywidgets
+from IPython.display import display
+from jetcam.utils import bgr8_to_jpeg
+
+image_widget = ipywidgets.Image(format='jpeg')
+
+image_widget.value = bgr8_to_jpeg(image)
+
+display(image_widget)
+
+camera.running = True
+
+def update_image(change):
+    image = change['new']
+    image_widget.value = bgr8_to_jpeg(image)
+    
+camera.observe(update_image, names='value')
+camera.unobserve(update_image, names='value')
+```
+
+
+Old:   
 If the api got wrong, check [this](https://devtalk.nvidia.com/default/topic/1055004/csi-camera-raspberry-pi-v2-not-work-on-jetson-nano/)
-
 
 ## 01112019 Connecting with the Camera
 Navigate to the path
@@ -19,7 +65,9 @@ The Key board shortcut is
 
 I am using the CSI camera, when I run the ipython notebook, the python will return busy. I suspend that the power problem, since I am using 5V/2A power source and the recommand power source is 5V/4A. Will go and buy a better source and USB camera for backup.
 
-i use my USB camera and fail also
+<!-- ![](./img/CSICamera_notWorking.jpg) -->
+[//]: # (This may be the most platform independent comment)
+<img src="./img/CSICamera_notWorking.jpg" alt="drawing" width="400"/>
 
 TODO buy official Power source and Logitech C270 Webcam
 
