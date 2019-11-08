@@ -1,6 +1,10 @@
 # Jetson-Nano-Log
 ## 08112019 Connecting with Camera again
 With 5V/4A power source.
+
+If the api got wrong, check [this](https://devtalk.nvidia.com/default/topic/1055004/csi-camera-raspberry-pi-v2-not-work-on-jetson-nano/)
+
+
 ## 01112019 Connecting with the Camera
 Navigate to the path
 > nvdli-nano/hello_camera/csi_camera.ipynb
@@ -26,6 +30,9 @@ TODO buy official Power source and Logitech C270 Webcam
 
 > Jetsonnano;
 > 615*****
+
+> 192.168.55.1:8888
+
 
 Headless mode, unsuccessful with opening the juptyer notebook on http://192.168.55.1:8888/. but able to access it though ssh(22),
 Reflash the image again and skip the booting with monitor and directly using USB device mode.
