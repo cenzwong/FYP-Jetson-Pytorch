@@ -1,4 +1,11 @@
 # Jetson-Nano-Log
+## 19122019 Wroking in Nvidia Program??
+[Blog](https://blogs.nvidia.com/blog/2016/07/29/whats-difference-artificial-intelligence-machine-learning-deep-learning-ai/) post reading.
+
+![Image of Deep Learning](https://blogs.nvidia.com/wp-content/uploads/2016/08/ai_difference_between_deep_learning_training_inference.jpg)
+Deep Learning
++ NN w/ internal parameters
+
 ## 08112019 Connecting with Camera again
 With 5V/4A power source. And 
 
