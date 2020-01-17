@@ -1,10 +1,36 @@
-# Jetson-Nano-Log
-## 19122019 Wroking in Nvidia Program??
+# FYP Daily Log-book
+
+## 160120 Prepare Interim Report.
+
+Notes
+
+## 0701020 Thumbs Project
+
+Notes
+
+## 0201020 Study on ResNet-18 paper
+
+Notes
+
+## 21122019 Study on CNN
+CNN is used on the image recogiztion. Since my application is used to detect objevt like finger. So CNN will be used in my application. The Jetson Nano includes a 128-core NVIDIA Maxwell GPU.
+
+![Image of Deep Learning](https://developer.nvidia.com/sites/default/files/dlsdk_cuda_frameworks.png)
+
+Nvidia provide the SDK for us to develop our own CNN and perform on-device training.
+
+About the architectures: ResNet-18 --> [ResNet](https://arxiv.org/pdf/1512.03385.pdf) mean Residual Networks, 18 means it has 18 layers. ResNet-18 is the smallest network.
+
+Adapting transfer learning: change the last fully connected(FC) layer to our desire output. Keeping the input 512 to the deisre number of output.
+
+## 19122019 Introduction to deep learning
 [Blog](https://blogs.nvidia.com/blog/2016/07/29/whats-difference-artificial-intelligence-machine-learning-deep-learning-ai/) post reading.
 
 ![Image of Deep Learning](https://blogs.nvidia.com/wp-content/uploads/2016/08/ai_difference_between_deep_learning_training_inference.jpg)
 Deep Learning
 + NN w/ internal parameters
+
+Check the term that the utility part is called inference. epochs means the time we run the training. Deep learning is the board name of using neural network design.
 
 ## 08112019 Connecting with Camera again
 With 5V/4A power source. And 
@@ -90,7 +116,7 @@ TODO buy official Power source and Logitech C270 Webcam
 
 
 Headless mode, unsuccessful with opening the juptyer notebook on http://192.168.55.1:8888/. but able to access it though ssh(22),
-Reflash the image again and skip the booting with monitor and directly using USB device mode.
+Reflash the image again and skip the booting with monitor and directly using USB device mode. The whole setup is like a broswer using JupyterLab which is quite smart to do that.
 
 The image inside the Deep Learning Course is different with the Jetson Nano Developer Kit SD Card Image. [NVIDIA DLI Jetson Nano SD Card Image](https://developer.download.nvidia.com/training/nano/dlinano_v1-0-0_image_20GB.zip) ==> dlinano_v1-0-0_image_20GB.zip
 
@@ -106,3 +132,20 @@ I have boot it with monitor and USB and mouse, it can successfully boot up.
 +++
 
 Received Jetson Nano
+
+## 14102019 Application decision
+I have taken the deep-learning-aid camera as the application. (To be short: pointing a thing, and it tells you what it is)
+
+However, for the finger tracking part. I am thinking to make things simpler and achievable, can I wear a special device(maybe a little red ball) on the finger so that the tracking will be much easier to be done? And the main deep learning model will be object detection (MobileNet)
+
+## 04102019 Face-2-Face meeting
+In this meeting, I understand that the model compression device benefit and my application previously propose is not very specify to the on-device deeplearning. I am going to re-think the application of this FYP
+
+## 10092019 Discusion on the FYP details
+I propose the concept of the fyp, "Model Compression for on-device Deep Learning".
+
+Application of the DL: "The smart system of the Shopping Cart in the Supermarket"
+DL model: "MobileNet V1"
+Device: "Jetson Nano"
+
+The reason for proposing MobileNet is that MobileNet is the most common model on DL on the embedded system while Jetson Nano, with fruitful resources, is easier to start with.
