@@ -4,9 +4,20 @@
 
 Notes
 
-## 0701020 Thumbs Project
+## 0701020 Classification Project
 
-Notes
+<table><tr>
+<td><img src="./img/Transfer_Learning_Class_Thumbup.png" alt="drawing" width="400"/></td>
+<td><img src="./img/Transfer_Learning_Class_Thumbdown.png" alt="drawing" width="400"/></td>
+<tr>
+<tr>
+<td><img src="./img/Transfer_Learning_Class_none.png" alt="drawing" width="400"/></td>
+<td><img src="./img/Transfer_Learning_Class_happy.png" alt="drawing" width="400"/></td>
+<tr>
+<tr>
+<td><img src="./img/Transfer_Learning_Class_sad.png" alt="drawing" width="400"/></td>
+<td><img src="./img/Transfer_Learning_Class_angry.png" alt="drawing" width="400"/></td>
+<tr></table>
 
 ## 0201020 Study on ResNet-18 paper
 
