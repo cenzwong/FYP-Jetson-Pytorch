@@ -19,6 +19,10 @@ Notes
 <td><img src="./img/Transfer_Learning_Class_angry.png" alt="drawing" width="400"/></td>
 <tr></table>
 
+
+
+
+
 ## 0201020 Study on ResNet-18 paper
 
 Traditional CNN will decay performance when it go deeper and deeper. A residual block --> main branch and shortcut branch(output and input connect tgt). 
