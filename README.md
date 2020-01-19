@@ -10,7 +10,9 @@ Notes
 
 ## 0201020 Study on ResNet-18 paper
 
-Notes
+Traditional CNN will decay performance when it go deeper and deeper. A residual block --> main branch and shortcut branch(output and input connect tgt). 
+
+https://courses.d2l.ai/berkeley-stat-157/units/resnet.html
 
 ## 21122019 Study on CNN
 CNN is used on the image recogiztion. Since my application is used to detect objevt like finger. So CNN will be used in my application. The Jetson Nano includes a 128-core NVIDIA Maxwell GPU.
