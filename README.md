@@ -1,8 +1,12 @@
 # FYP Daily Log-book
 
-## 160120 Prepare Interim Report.
+## 160120 Regression Project.
 
-Notes
+Regression give a range of output, not like classification, have a digital output. Regression can do the job like tracking.
+
+The final layer of the pre-trained ResNet-18 network is a fully connected (fc) layer (512, 1000).
+
+Predict coordinates, two values is needed
 
 ## 0701020 Classification Project
 
