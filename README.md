@@ -1,4 +1,8 @@
 # FYP Daily Log-book
+## 190120 Regression model change
+
+Modify the photo, and take the photo will fix angle of recording and then snapshot the finger tips with different angles and rebuild the model again.
+<div style="width:100%;height:0px;position:relative;padding-bottom:33.248%;"><iframe src="https://streamable.com/s/p8h1h/axhuh" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
 
 ## 160120 Regression Project.
 
