@@ -21,10 +21,10 @@ Predict coordinates, two values is needed
 <tr>
 <tr>
 <td><img src="./img/Transfer_Learning_Class_none.png" alt="drawing" width="400"/></td>
-<td><img src="./img/Transfer_Learning_Class_happy.png" alt="drawing" width="400"/></td>
+<td><img src="./img/Transfer_Learning_Class_Happy.png" alt="drawing" width="400"/></td>
 <tr>
 <tr>
-<td><img src="./img/Transfer_Learning_Class_sad.png" alt="drawing" width="400"/></td>
+<td><img src="./img/Transfer_Learning_Class_Sad.png" alt="drawing" width="400"/></td>
 <td><img src="./img/Transfer_Learning_Class_angry.png" alt="drawing" width="400"/></td>
 <tr></table>
 
